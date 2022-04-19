@@ -1,0 +1,12 @@
+{
+  "etr/libhttpserver" : { 
+
+    "requires" : {  
+      "tipi-deps/libmicrohttpd" : { } 
+      , "platform" :["CURL::+libcurl"]
+      , "cpp-pm/pthreads-win32:vs-16-2019-win64-cxx17" :{"u":true, "packages" : ["pthreads-win32"],"targets" : ["pthreads-win32::pthreads"]}
+      , "platform:vs-16-2019-win64-cxx17" :["ZLIB::+zlib", "ZLIB::+zlib", "CURL::+libcurl", "target::ws2_32"]
+    }
+
+  }
+}
