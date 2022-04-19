@@ -1,3 +1,5 @@
+[![tipi.build](https://github.com/tipi-deps/example-libhttpserver/actions/workflows/ci.yml/badge.svg)](https://github.com/tipi-deps/example-libhttpserver/actions/workflows/ci.yml)
+
 # Example using etr/libhttpserver
 
 This example features using the [etr/libhttpserver](https://github.com/etr/libhttpserver) with [tipi.build](https://tipi.build) to run a simple http server.
